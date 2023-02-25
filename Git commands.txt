@@ -1,2 +1,7 @@
-1. git status
-2. git init
+1. git status (check if anything has been changed)
+2. git init (initialize git repo in the selected directory)
+3. git config --global user.email "email@sample.com" (set global email)
+4. git config --global user.name "Your Name" (set global name)
+5. git add . (stage all files inside the folder)
+6. git commit -m "any message" (to commit the changes)
+7. git log (to check activity history)
