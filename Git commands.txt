@@ -13,5 +13,8 @@
 13. git branch (check how many branches and their names)
 14. git branch branch-name (create new branch)
 15. git checkout branch-name (go to the newly created branch)
-16. //make some changes in the files inside branch-name
-17. git push origin branch-name (push branch-name to remote repo)
+16. git branch -d branch-name (delete newly created branch from local repo)
+17. git push origin --delete branch-name (delete newly created branch from remote repo)
+18. //make some changes in the files inside branch-name
+19. git push origin branch-name (push branch-name to remote repo)
+20. git pull origin main --allow-unrelated-histories
