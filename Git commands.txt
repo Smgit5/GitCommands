@@ -21,3 +21,4 @@
 21. git rm --cached '*.class'  (delete files only from remote repo, not from local repo)
 22. touch .gitignore (create gitIgnore file in already existing local repo -- run in the root directory where .git folder is located)
 23. echo '*.class' >> .gitignore  (add files to gitIgnore)
+24. git remote -v (to check remote repo)
